@@ -86,7 +86,7 @@ nav a:hover {
 
 /* Section Styles */
 
- h1 section.playbill {
+ section.playbill h1 {
     font-size: 3em;
     font-weight: normal;
     margin: 0px; 
@@ -133,12 +133,13 @@ font-family: Dobkin, cursive;
 
 /* Description List Styles */
 
-
-dl {
-
+dd {
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-bottom: 10px;
 }
 
-dd {
+dt {
     font-size: 1.3em;
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.4);
